@@ -1,0 +1,24 @@
+Project 4 - Dots and Boxes 
+
+
+
+
+
+Overview
+We're moving back in time, from the 1990's and Tetris, to the 1890's and the game of Dots and Boxes
+ (Links to an external site.)
+Links to an external site.
+. This still-popular pencil-and-paper game can be found everywhere, from paper placemats and kids' menus in restaurants, to dozens of variants available for mobile and online play.
+Objectives
+Once again you must develop an implementation of an interface.  Your implementation will need to keep track of all aspects of this game.  There is no user interface, as we are building the underlying game engine.  As in other projects, you'll be provided a few additional classes to assist with your implementation.  The focus here is on somewhat advanced uses of collections, as well as on exception management.  You have a lot of freedom here to design and develop your code in any way you see fit, so your guidance will be somewhat more limited than in the past projects.
+Requirements
+The interface is called edu.vt.cs5044.DotsAndBoxes and your implementation must be called edu.vt.cs5044.DABGame. You must of course create a test class as well, called edu.vt.cs5044.DABGameTest and achieve full code coverage. You are expected develop at least one additional helper class in the same package, with any reasonable name, in order to reduce the overall complexity of your implementation.
+Downloads
+dab5044.jar - library file containing the compiled utility classes and interface
+dab5044-api.jar - library file containing the Javadocs for the utility classes and interface
+Getting Started
+Start a new project in Eclipse, then import the files above exactly as you did with the files for the Tetris project.  You'll need to use a lot of what you learned in that assignment to complete this assignment.  Be sure to thoroughly review the API details for all the provided classes. Everything you need to know is in the API.  There is no user interface of any kind, nor any other way to run your implementation beyond your own test class, so a test-driven development strategy will be important to follow.
+Submit to Web-CAT
+Submit your solution to Web-CAT via Eclipse or the web interface.  Please feel free to improve and resubmit your code as many times as you like (before the deadline) in order to improve your score.
+Important Notes:
+See the project grading rubric for full details on the grading criteria applied to this assignment.
