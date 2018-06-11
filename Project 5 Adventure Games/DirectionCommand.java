@@ -1,46 +1,43 @@
-  
- package adventure;
-  
- /**
-  
-  * This Class extends the Command interface. This command is used to go to different rooms in
-  
-  * different directions. Directions are: east (e), west(w), north(n), south(s), up(u) and down(d).
-  
-  * it represents, and how to use it.
-  
-  * 
-  
-  * @author Jeevan Thapa
-  
-  * @version Nov 13, 2017
-  
-  */
-  
- public class DirectionCommand
-  
-     extends Command
-  
- {
- private final String direction;
- /**
-  * Create a new DirectionCommand object.
-  */
- public DirectionCommand()
- {
-     direction = null;
- }
- /**
-  * Create a new DirectionCommand object.
-  * 
-  * @param dir
-  *            movement direction
-  */
- public DirectionCommand(String dir)
- {
-     this.direction = dir;
- }
- /**
+
+package adventure;
+
+/**
+ * 
+ * This Class extends the Command interface. This command is used to go to
+ * different rooms in different directions. Directions are: east (e), west(w),
+ * north(n), south(s), up(u) and down(d). it represents, and how to use it.
+ * 
+ * @author Jeevan Thapa
+ * 
+ * @version Nov 13, 2017
+ * 
+ */
+
+public class DirectionCommand
+
+		extends Command
+
+{
+	private final String direction;
+
+	/**
+	 * Create a new DirectionCommand object.
+	 */
+	public DirectionCommand() {
+		direction = null;
+	}
+
+	/**
+	 * Create a new DirectionCommand object.
+	 * 
+	 * @param dir
+	 *            movement direction
+	 */
+	public DirectionCommand(String dir) {
+		this.direction = dir;
+	}
+
+	/**
   * {@inheritDoc}
   */
  @Override

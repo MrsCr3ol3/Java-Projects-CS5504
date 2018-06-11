@@ -37,9 +37,9 @@ public class MinivanTest {
 	// ~ Methods ...............................................................
 
 	/**
-	 * Sets up the test fixture. Called before every test case method. Here, we
-	 * just create a minivan using the default constructor, so a freshly created
-	 * minivan is available for use in each test.
+	 * Sets up the test fixture. Called before every test case method. Here, we just
+	 * create a minivan using the default constructor, so a freshly created minivan
+	 * is available for use in each test.
 	 */
 	@Before
 	public void setUp() {
@@ -47,8 +47,8 @@ public class MinivanTest {
 	}
 
 	/**
-	 * Check that the outside handle opens the door in a newly constructed
-	 * minivan object and that the log message is the one we expect.
+	 * Check that the outside handle opens the door in a newly constructed minivan
+	 * object and that the log message is the one we expect.
 	 */
 	@Test
 	public void testOuterHandleWithDefaultMinivan() {
@@ -59,8 +59,8 @@ public class MinivanTest {
 	}
 
 	/**
-	 * Check that the inside handle opens the door in a newly constructed
-	 * minivan object and that the log message is the one we expect.
+	 * Check that the inside handle opens the door in a newly constructed minivan
+	 * object and that the log message is the one we expect.
 	 */
 	@Test
 	public void testInsideHandleWithDefaultMinivan() {

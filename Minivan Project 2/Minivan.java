@@ -29,8 +29,8 @@ public class Minivan {
 	// ~ Constructor ...........................................................
 
 	/**
-	 * Creates a new minivan object with the doors closed, gear shift in park,
-	 * child lock switch off, and master unlock switch on (unlocked).
+	 * Creates a new minivan object with the doors closed, gear shift in park, child
+	 * lock switch off, and master unlock switch on (unlocked).
 	 */
 	public Minivan() {
 		openOrClosed = "closed";
@@ -105,8 +105,8 @@ public class Minivan {
 	}
 
 	/**
-	 * This method is used to turns on the child safety lock (if value is true)
-	 * or turns off the child safety lock (if value is false).
+	 * This method is used to turns on the child safety lock (if value is true) or
+	 * turns off the child safety lock (if value is false).
 	 * 
 	 * @param value
 	 */
@@ -118,8 +118,8 @@ public class Minivan {
 	}
 
 	/**
-	 * This method is used to print the string representation of the minivan
-	 * object newly created
+	 * This method is used to print the string representation of the minivan object
+	 * newly created
 	 */
 	public String toString() {
 		String stringRepresentation = "The van is in  " + gear + ".\nThe child lock is " + childLock + ".\nThe door is "
